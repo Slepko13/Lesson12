@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+.container-wrap {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    color: #fbf6e4;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+    width: 400px;
+    height: 496px;
+    background: linear-gradient(32deg, rgba(48, 35, 174, 0.8) 0%, rgba(200, 109, 215, 0.8) 100%), url("../Images/bg-modal.jpg");
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    width: 261px;
+    height: 42px;
+    align-items: center;
+    margin: 50px auto;
+    border: 2px solid red;
+}
+
+.navbar__item {
+
+    width: 62px;
+    height: 13px;
+    color: #e1c2f1;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.navbar__item:hover {
+    color: #fbf6e4;
+}
+
+.block {
+    width: 261px;
+    height: 60%;
+    border: 2px solid blue;
+    margin: 0 auto;
+
+}
+
+.block__content {
+    display: none;
+
+}
+
+.block__content:target {
+    display: block;
+    height: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.form__items {
+    width: 100%;
+    border: 2px solid green;
+
+
+}
+
+.form__item {
+    /* Style for "Shape 2" */
+    width: 100%;
+    height: 42px;
+
+    background-color: rgb(229, 238, 238, 0);
+    color: #fbf6e4;
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.form__item--position {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__item--size {
+    font-size: 13px;
+    border: 1px solid;
+
+}
